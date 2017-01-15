@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PROPRIETARY_FILES := \
+PROPRIETARIES := \
     bin/at_distributor \
     bin/npsmobex \
     bin/refnotify \
@@ -56,4 +56,4 @@ PROPRIETARY_FILES := \
     bin/sswap
 
 PRODUCT_COPY_FILES += \
-    $(foreach f,$(PROPRIETARY_FILES),vendor/samsung/scx30g_v2-common/proprietary/$(f):system/$(f))
+    $(foreach f,$(PROPRIETARIES),vendor/samsung/scx30g_v2-common/proprietary/$(f):system/$(f))
