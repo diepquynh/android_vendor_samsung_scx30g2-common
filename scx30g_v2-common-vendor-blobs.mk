@@ -46,7 +46,6 @@ PROPRIETARIES := \
     lib/libreference-ril_sp.so \
     lib/libsecril-client.so \
     lib/libsecnativefeature.so \
-    lib/libmemoryheapion.so \
     lib/libomx_avcdec_hw_sprd.so \
     lib/libomx_avcenc_hw_sprd.so \
     lib/libomx_vpxdec_hw_sprd.so \
