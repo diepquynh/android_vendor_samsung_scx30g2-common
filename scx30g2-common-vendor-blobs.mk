@@ -33,6 +33,7 @@ PROPRIETARIES := \
     etc/wifi/bcmdhd_sta.bin \
     etc/wifi/nvram_mfg.txt \
     vendor/firmware/BCM43430A1_V0025.0070.hcd \
+    vendor/firmware/vbc_eq \
     bin/rild \
     bin/modemd \
     bin/nvitemd \
@@ -55,4 +56,4 @@ PROPRIETARIES := \
     bin/sswap
 
 PRODUCT_COPY_FILES += \
-    $(foreach f,$(PROPRIETARIES),vendor/samsung/scx30g_v2-common/proprietary/$(f):system/$(f))
+    $(foreach f,$(PROPRIETARIES),vendor/samsung/scx30g2-common/proprietary/$(f):system/$(f))
