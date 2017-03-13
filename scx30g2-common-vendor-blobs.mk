@@ -34,7 +34,7 @@ PROPRIETARIES := \
     etc/wifi/nvram_mfg.txt \
     vendor/firmware/BCM43430A1_V0025.0070.hcd \
     vendor/firmware/vbc_eq \
-    bin/rild \
+    bin/rild_sprd \
     bin/modemd \
     bin/nvitemd \
     bin/phoneserver \
