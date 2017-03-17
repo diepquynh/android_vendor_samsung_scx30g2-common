@@ -32,6 +32,7 @@ PROPRIETARIES := \
     etc/wifi/bcmdhd_mfg.bin \
     etc/wifi/bcmdhd_sta.bin \
     etc/wifi/nvram_mfg.txt \
+    etc/wifi/wpa_supplicant.conf \
     vendor/firmware/BCM43430A1_V0025.0070.hcd \
     vendor/firmware/vbc_eq \
     bin/rild_sprd \
