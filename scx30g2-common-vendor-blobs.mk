@@ -20,9 +20,9 @@ PROPRIETARIES := \
     lib/libatparser.so \
     bin/gpsd \
     bin/gps.cer \
-	etc/gps.conf \
+    etc/gps.conf \
     lib/hw/gps.default.so \
-	lib/liblcsagent.so \
+    lib/liblcsagent.so \
     lib/libboost.so \
     lib/egl/libGLES_mali.so \
     lib/libfactoryutil.so \
@@ -47,12 +47,14 @@ PROPRIETARIES := \
     lib/libreference-ril_sp.so \
     lib/libsecril-client.so \
     lib/libsecnativefeature.so \
+    lib/libomx_aacdec_sprd.so \
     lib/libomx_avcdec_hw_sprd.so \
     lib/libomx_avcenc_hw_sprd.so \
     lib/libomx_vpxdec_hw_sprd.so \
     lib/libomx_m4vh263dec_hw_sprd.so \
     lib/libomx_m4vh263enc_hw_sprd.so \
-	lib/hw/gralloc.sc8830.so \
+    lib/libomx_mp3dec_sprd.so \
+    lib/hw/gralloc.sc8830.so \
     bin/sswap
 
 PRODUCT_COPY_FILES += \
