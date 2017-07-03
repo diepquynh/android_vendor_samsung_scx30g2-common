@@ -55,7 +55,7 @@ PROPRIETARIES := \
     lib/libomx_m4vh263enc_hw_sprd.so \
     lib/libomx_mp3dec_sprd.so \
     lib/hw/gralloc.sc8830.so \
-    bin/sswap
+    bin/sswap \
     lib/lib_SoundAlive_play_ver125e.so \
     lib/soundfx/libaudiosa_sec.so \
     lib/soundfx/libaudioeffectoffload.so
