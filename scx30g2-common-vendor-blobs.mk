@@ -20,9 +20,9 @@ PROPRIETARIES := \
     lib/libatparser.so \
     bin/gpsd \
     bin/gps.cer \
-	etc/gps.conf \
+    etc/gps.conf \
     lib/hw/gps.default.so \
-	lib/liblcsagent.so \
+    lib/liblcsagent.so \
     lib/libboost.so \
     lib/egl/libGLES_mali.so \
     lib/libfactoryutil.so \
@@ -53,8 +53,11 @@ PROPRIETARIES := \
     lib/libomx_vpxdec_hw_sprd.so \
     lib/libomx_m4vh263dec_hw_sprd.so \
     lib/libomx_m4vh263enc_hw_sprd.so \
-	lib/hw/gralloc.sc8830.so \
-    bin/sswap
+    lib/hw/gralloc.sc8830.so \
+    bin/sswap \
+    lib/lib_SoundAlive_play_ver125e.so \
+    lib/soundfx/libaudiosa_sec.so \
+    lib/soundfx/libaudioeffectoffload.so
 
 PRODUCT_COPY_FILES += \
     $(foreach f,$(PROPRIETARIES),vendor/samsung/scx30g2-common/proprietary/$(f):system/$(f))
