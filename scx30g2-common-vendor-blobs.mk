@@ -56,6 +56,9 @@ PROPRIETARIES := \
     lib/libomx_mp3dec_sprd.so \
     lib/hw/gralloc.sc8830.so \
     bin/sswap
+    lib/lib_SoundAlive_play_ver125e.so \
+    lib/soundfx/libaudiosa_sec.so \
+    lib/soundfx/libaudioeffectoffload.so
 
 PRODUCT_COPY_FILES += \
     $(foreach f,$(PROPRIETARIES),vendor/samsung/scx30g2-common/proprietary/$(f):system/$(f))
