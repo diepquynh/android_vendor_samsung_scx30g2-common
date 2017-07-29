@@ -53,7 +53,6 @@ PROPRIETARIES := \
     lib/libomx_vpxdec_hw_sprd.so \
     lib/libomx_m4vh263dec_hw_sprd.so \
     lib/libomx_m4vh263enc_hw_sprd.so \
-    lib/hw/gralloc.sc8830.so \
     bin/sswap \
     lib/lib_SoundAlive_play_ver125e.so \
     lib/soundfx/libaudiosa_sec.so \
