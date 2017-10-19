@@ -13,13 +13,13 @@
 # limitations under the License.
 
 PROPRIETARIES := \
-    bin/at_distributor \
-    bin/npsmobex \
-    bin/refnotify \
-    bin/engpc \
+    vendor/bin/at_distributor \
+    vendor/bin/npsmobex \
+    vendor/bin/refnotify \
+    vendor/bin/engpc \
     lib/libatparser.so \
-    bin/gpsd \
-    bin/gps.cer \
+    vendor/bin/gpsd \
+    vendor/bin/gps.cer \
     etc/gps.conf \
     lib/hw/gps.default.so \
     lib/liblcsagent.so \
@@ -33,15 +33,15 @@ PROPRIETARIES := \
     etc/wifi/nvram_mfg.txt \
     vendor/firmware/BCM43430A1_V0025.0070.hcd \
     vendor/firmware/vbc_eq \
-    bin/rild \
-    bin/modemd \
-    bin/nvitemd \
-    bin/phoneserver \
-    bin/modem_control \
-    bin/ext_data.sh \
-    bin/ext_kill.sh \
-    bin/ext_symlink.sh \
-    bin/prepare_param.sh \
+    vendor/bin/rild \
+    vendor/bin/modemd \
+    vendor/bin/nvitemd \
+    vendor/bin/phoneserver \
+    vendor/bin/modem_control \
+    vendor/bin/ext_data.sh \
+    vendor/bin/ext_kill.sh \
+    vendor/bin/ext_symlink.sh \
+    vendor/bin/prepare_param.sh \
     lib/libril.so \
     lib/libreference-ril_sp.so \
     lib/libsecril-client.so \
@@ -55,7 +55,7 @@ PROPRIETARIES := \
     lib/libomx_m4vh263dec_sw_sprd.so \
     lib/libomx_m4vh263enc_hw_sprd.so \
     lib/libomx_mp3dec_sprd.so \
-    bin/sswap \
+    vendor/bin/sswap \
     lib/lib_SoundAlive_play_ver125e.so \
     lib/soundfx/libaudiosa_sec.so \
     lib/soundfx/libaudioeffectoffload.so
