@@ -33,7 +33,6 @@ PROPRIETARIES := \
     etc/wifi/nvram_mfg.txt \
     vendor/firmware/BCM43430A1_V0025.0070.hcd \
     vendor/firmware/vbc_eq \
-    vendor/bin/rild \
     vendor/bin/modemd \
     vendor/bin/nvitemd \
     vendor/bin/phoneserver \
@@ -42,9 +41,7 @@ PROPRIETARIES := \
     vendor/bin/ext_kill.sh \
     vendor/bin/ext_symlink.sh \
     vendor/bin/prepare_param.sh \
-    lib/libril.so \
     lib/libreference-ril_sp.so \
-    lib/libsecril-client.so \
     lib/libsecnativefeature.so \
     lib/libomx_aacdec_sprd.so \
     lib/libomx_avcdec_hw_sprd.so \
