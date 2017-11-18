@@ -13,7 +13,6 @@
 # limitations under the License.
 
 PROPRIETARIES := \
-    vendor/bin/at_distributor \
     vendor/bin/npsmobex \
     vendor/bin/refnotify \
     vendor/bin/engpc \
