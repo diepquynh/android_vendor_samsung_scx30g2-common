@@ -20,6 +20,7 @@ PROPRIETARIES := \
     lib/libatparser.so \
     bin/gpsd \
     bin/gps.cer \
+	etc/media_codecs_performance.xml \
     lib/hw/gps.default.so \
     lib/liblcsagent.so \
     lib/libboost.so \
