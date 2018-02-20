@@ -20,17 +20,12 @@ PROPRIETARIES := \
     lib/libatparser.so \
     bin/gpsd \
     bin/gps.cer \
-    etc/gps.conf \
     lib/hw/gps.default.so \
     lib/liblcsagent.so \
     lib/libboost.so \
     lib/libfactoryutil.so \
     lib/libomission_avoidance.so \
     lib/libatchannel.so \
-    etc/wifi/bcmdhd_apsta.bin \
-    etc/wifi/bcmdhd_mfg.bin \
-    etc/wifi/bcmdhd_sta.bin \
-    etc/wifi/nvram_mfg.txt \
     bin/modemd \
     bin/nvitemd \
     bin/phoneserver \
