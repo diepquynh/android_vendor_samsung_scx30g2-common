@@ -31,7 +31,6 @@ PROPRIETARIES := \
     etc/wifi/bcmdhd_mfg.bin \
     etc/wifi/bcmdhd_sta.bin \
     etc/wifi/nvram_mfg.txt \
-    bin/rild \
     bin/modemd \
     bin/nvitemd \
     bin/phoneserver \
@@ -40,7 +39,6 @@ PROPRIETARIES := \
     bin/ext_kill.sh \
     bin/ext_symlink.sh \
     bin/prepare_param.sh \
-    lib/libril.so \
     lib/libreference-ril_sp.so \
     lib/libsecril-client.so \
     lib/libsecnativefeature.so \
