@@ -31,8 +31,6 @@ PROPRIETARIES := \
     etc/wifi/bcmdhd_mfg.bin \
     etc/wifi/bcmdhd_sta.bin \
     etc/wifi/nvram_mfg.txt \
-    vendor/firmware/BCM43430A1_V0025.0070.hcd \
-    vendor/firmware/vbc_eq \
     bin/rild \
     bin/modemd \
     bin/nvitemd \
@@ -61,4 +59,11 @@ PROPRIETARIES := \
     lib/soundfx/libaudioeffectoffload.so
 
 PRODUCT_COPY_FILES += \
-    $(foreach f,$(PROPRIETARIES),vendor/samsung/scx30g2-common/proprietary/$(f):system/$(f))
+    $(foreach f,$(PROPRIETARIES),vendor/samsung/scx30g2-common/proprietary/$(f):system/vendor/$(f))
+
+VENDOR_PROPRIETARIES := \
+    vendor/firmware/BCM43430A1_V0025.0070.hcd \
+    vendor/firmware/vbc_eq
+
+PRODUCT_COPY_FILES += \
+    $(foreach f,$(VENDOR_PROPRIETARIES),vendor/samsung/scx30g2-common/proprietary/$(f):system/$(f))
