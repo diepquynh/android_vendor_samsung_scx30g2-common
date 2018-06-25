@@ -23,7 +23,6 @@ PROPRIETARIES := \
     etc/gps.conf \
     lib/hw/gps.default.so \
     lib/liblcsagent.so \
-    lib/libboost.so \
     lib/libfactoryutil.so \
     lib/libomission_avoidance.so \
     lib/libatchannel.so \
