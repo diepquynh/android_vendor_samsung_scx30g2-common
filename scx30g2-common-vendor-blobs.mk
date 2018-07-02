@@ -35,7 +35,6 @@ PROPRIETARIES := \
     bin/ext_symlink.sh \
     bin/prepare_param.sh \
     lib/libreference-ril_sp.so \
-    lib/libsecril-client.so \
     lib/libsecnativefeature.so \
     lib/libomx_aacdec_sprd.so \
     lib/libomx_avcdec_hw_sprd.so \
