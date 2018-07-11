@@ -26,10 +26,8 @@ PROPRIETARIES := \
     lib/libfactoryutil.so \
     lib/libomission_avoidance.so \
     lib/libatchannel.so \
-    bin/modemd \
     bin/nvitemd \
     bin/phoneserver \
-    bin/modem_control \
     bin/ext_data.sh \
     bin/ext_kill.sh \
     bin/ext_symlink.sh \
