@@ -25,7 +25,6 @@ PROPRIETARIES := \
     lib/liblcsagent.so \
     lib/libfactoryutil.so \
     lib/libomission_avoidance.so \
-    lib/libatchannel.so \
     bin/nvitemd \
     bin/phoneserver \
     bin/ext_data.sh \
